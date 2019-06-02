@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'edu.esu.soberg'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'edu.esu.soberg.RunSimulation'
+    }
+}
